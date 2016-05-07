@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>AM WORLD</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/popup.css">
+</head>
+
+<body>
+    <div class="jumbotron" style="background-color: #f0f3f5; padding: 1px;">
+        <div class="row page-header">
+            <div class="col-xs-1"></div>
+            <div class="col-xs-3">
+                <a class="logo" href="index.html"><span class="logo">AM WORLD</span></a>
+            </div>
+            <div class="col-xs-7 input-group">
+                <input type="text" class="form-control input-md" placeholder="search..."></input>
+                <span class="input-group-btn">
+                     <button type="button" class="btn btn-md" style="padding:7px 12px; margin-top: 0px; background-color: #e6e6e6;">
+                         <i class="glyphicon glyphicon-search"></i>
+                     </button>
+                 </span>
+            </div>
+            <div class="col-xs-1"></div>
+        </div>
+        <nav class="navbar">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="iwatch.html">IWatch</a></li>
+                        <li><a href="#">Special Recommendation</a></li>
+                        <li><a href="ranking.html">Rankings</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Categories<span class="caret"></span></a>
+                            <ul class="dropdown-menu multi-column columns-3">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <ul class="multi-column-dropdown">
+                                            <li class="dropdown-header">By Genre</li>
+                                            <li><a href="#">Action</a></li>
+                                            <li><a href="#">Animation</a></li>
+                                            <li><a href="#">Comedy</a></li>
+                                            <li><a href="browsing.html">Drama</a></li>
+                                            <li><a href="#">Family</a></li>
+                                            <li><a href="#">Film-Noir</a></li>
+                                            <li><a href="#">Horror</a></li>
+                                            <li><a href="#">Musical</a></li>
+                                            <li><a href="#">Romance</a></li>
+                                            <li><a href="#">Sport</a></li>
+                                            <li><a href="#">War</a></li>
+                                            <li><a href="#">Others</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <ul class="multi-column-dropdown">
+                                            <li class="dropdown-header">By Country/Region</li>
+                                            <li><a href="#">China (Mainland)</a></li>
+                                            <li><a href="#">Hongkong</a></li>
+                                            <li><a href="#">Taiwan</a></li>
+                                            <li><a href="#">Japan</a></li>
+                                            <li><a href="#">South Korea</a></li>
+                                            <li><a href="#">India</a></li>
+                                            <li><a href="#">Thailand</a></li>
+                                            <li><a href="#">Others</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <ul class="multi-column-dropdown">
+                                            <li class="dropdown-header">By Release Year</li>
+                                            <li><a href="#">2016</a></li>
+                                            <li><a href="#">2015</a></li>
+                                            <li><a href="#">2014</a></li>
+                                            <li><a href="#">2013</a></li>
+                                            <li><a href="#">2012</a></li>
+                                            <li><a href="#">2011</a></li>
+                                            <li><a href="#">2010</a></li>
+                                            <li><a href="#">2005-2009</a></li>
+                                            <li><a href="#">2000-2004</a></li>
+                                            <li><a href="#">Earlier than 2000</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <img class="center-block img-responsive" src="img/ourlittlesister.jpg" alt="poster">
+            </div>
+            <div class="col-sm-9" style="padding-left: 50px;">
+                <div class="col-xs-9">
+                    <div class="title">Our Little Sister</div>
+                    <div class="brief" style="margin-bottom: 10px;">
+                        Director: Hirokazu Koreeda</br>Starring: Haruka Ayase, Masami Nagasawa, Kaho</br>Category: Comedy, Drama</br>Country: Japan</br>Duration: 2h 8min</br>Release Date: 8 July 2016</br>Available on: Theater
+                    </div>
+                    <button type="button" class="btn hvr-radial-in add" style="margin-right: 5px;">Want to Watch</button>
+                    <button type="button" class="btn hvr-radial-in add" style="margin-right: 5px;">Watched</button>
+                    <button type="button" class="btn hvr-radial-in popup-with-form" href="#review-form">Submit a Review</button>
+                    <form id="review-form" class="white-popup-block mfp-hide">
+                        <h2>New Review</h2>
+                        <fieldset style="border:0;">
+                            <div>
+                                <label for="title">Review Title</label>
+                                <input id="review-title" name="title" type="text" required="" style="width: 200px;">
+                            </div>
+                            <div>
+                                <label for="rate">Rating (Out of 10)</label>
+                                <input id="review-rate" name="rate" type="number" required="" style="width: 50px;">
+                            </div>
+                            <div>
+                                <label for="textarea">Review</label>
+                                <br>
+                                <textarea id="review-textarea" style="width: 450px; height: 100px;"></textarea>
+                            </div>
+                            <button type="button" id="newreview" class="btn hvr-radial-in submit">Submit</button>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="col-xs-3">
+                    <div class="rating" style="margin: 20px 0px;">7.6</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="title">Storyline</div>
+                <div style="font-size: 15px; margin: 0px 5px;">
+                    Three sisters live together in their late grandmother's house in the city of Kamaruka. They have lived together since their dad left home for another woman. They have lived together since their mum imitated her husband by running off with another man... Sachi, 29, the oldest Koda sister, a nurse at the local hospital, acts as a substitute mother to Yoshino, 22, and Chika, 19. One day, the threesome learns of the death of their "traitor" father and it is only halfheartedly that they go to his funeral. But in Yamagata something unexpected happens: they meet their half-sister Suzu, 13, there and immediately fall for the spell of this exquisite young creature. Sensing that Yoko, her father's widow, will not be a fit guardian. Sachi invites Suzu to move to Kamakura home...
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="title">Trailers and Pictures</div>
+            </div>
+        </div>
+        <div class="popup-gallery">
+            <div class="row" style="margin-bottom:10px; ">
+                <div class="col-sm-4">
+                    <div class="embed-responsive embed-responsive-16by9 movie-gallery">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NRktvTd5KZo"></iframe>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <a href="img/sister1.jpg" title="Our Little Sister"><img class="center-block img-responsive movie-gallery" src="img/sister1.jpg" alt="picture"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="img/sister2.jpg" title="Our Little Sister"><img class="center-block img-responsive movie-gallery" src="img/sister2.jpg" alt="picture"></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="img/sister3.jpg" title="Our Little Sister"><img class="center-block img-responsive movie-gallery" src="img/sister3.jpg" alt="picture"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="img/sister4.jpg" title="Our Little Sister"><img class="center-block img-responsive movie-gallery" src="img/sister4.jpg" alt="picture"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="img/sister5.jpg" title="Our Little Sister"><img class="center-block img-responsive movie-gallery" src="img/sister5.jpg" alt="picture"></a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="title">Film Reviews</div>
+            </div>
+        </div>
+        <div class="row">
+            <div id="review-container" class="col-sm-12">
+                <div>
+                    <div class="reviewtitle">Heart-warming Drama</div>
+                    <div>2016/04/25 | by <a href="">Joy1224</a> (China) | <span class="rate">7.0/10.0</span></div>
+                    <div class="reviewdetail">This is the 4th movie on family drama centering around children I have seen by director Hirokazu Koreeda. I love them all and I would say only until this one did I see some resemblance of him to Yasujiro Ozu, Japanese classic humanistic director.</div>
+                </div>
+                <div>
+                    <div class="reviewtitle">A Movie that Stresses Family Bonding</div>
+                    <div>2016/04/30 | by <a href="">KJJ</a> (South Korea) | <span class="rate">8.0/10.0</span></div>
+                    <div class="reviewdetail">Excellent cast and acting. I wish I had a big sister like Sachi and lived in a big house like that. The home-cooked meals make the whole movie very homey, warm and humanistic, even more comfortable than "Midnight Diner." In the big scheme of things, family is what we have left despite all the arguments and differences. And sometimes we may have to make sacrifices for the sake of the family – a theme common in Ozu's movies. Family and food seem to be the source of support we get after all the crazy things we encounter in the outside world – abandonment, betrayal, deaths, etc. Quite heart-warming, uplifting and beautiful. A little sad and a little short, just like life and cherry blossom.</div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <footer class="footer">
+            <div class="row" style="margin-bottom: 20px">
+                <div class="col-md-4"></div>
+                <div class="col-md-4 text-center">
+                    About Us | Contact Us
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/mixitup.js"></script>
+</body>
+
+</html>

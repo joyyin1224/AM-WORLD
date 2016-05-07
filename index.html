@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>AM WORLD</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/popup.css">
+</head>
+
+<body>
+    <div class="jumbotron" style="background-color: #f0f3f5; padding: 1px;">
+        <div class="row page-header">
+            <div class="col-xs-1"></div>
+            <div class="col-xs-3">
+                <a class="logo" href="index.html"><span class="logo">AM WORLD</span></a>
+            </div>
+            <div class="col-xs-7 input-group">
+                <input type="text" class="form-control input-md" placeholder="search..."></input>
+                <span class="input-group-btn">
+                     <button type="button" class="btn btn-md" style="padding:7px 12px; margin-top: 0px; background-color: #e6e6e6;">
+                         <i class="glyphicon glyphicon-search"></i>
+                     </button>
+                 </span>
+            </div>
+            <div class="col-xs-1"></div>
+        </div>
+        <nav class="navbar">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="iwatch.html">IWatch</a></li>
+                        <li><a href="#">Special Recommendation</a></li>
+                        <li><a href="ranking.html">Rankings</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Categories<span class="caret"></span></a>
+                            <ul class="dropdown-menu multi-column columns-3">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <ul class="multi-column-dropdown">
+                                            <li class="dropdown-header">By Genre</li>
+                                            <li><a href="#">Action</a></li>
+                                            <li><a href="#">Animation</a></li>
+                                            <li><a href="#">Comedy</a></li>
+                                            <li><a href="browsing.html">Drama</a></li>
+                                            <li><a href="#">Family</a></li>
+                                            <li><a href="#">Film-Noir</a></li>
+                                            <li><a href="#">Horror</a></li>
+                                            <li><a href="#">Musical</a></li>
+                                            <li><a href="#">Romance</a></li>
+                                            <li><a href="#">Sport</a></li>
+                                            <li><a href="#">War</a></li>
+                                            <li><a href="#">Others</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <ul class="multi-column-dropdown">
+                                            <li class="dropdown-header">By Country/Region</li>
+                                            <li><a href="#">China (Mainland)</a></li>
+                                            <li><a href="#">Hongkong</a></li>
+                                            <li><a href="#">Taiwan</a></li>
+                                            <li><a href="#">Japan</a></li>
+                                            <li><a href="#">South Korea</a></li>
+                                            <li><a href="#">India</a></li>
+                                            <li><a href="#">Thailand</a></li>
+                                            <li><a href="#">Others</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <ul class="multi-column-dropdown">
+                                            <li class="dropdown-header">By Release Year</li>
+                                            <li><a href="#">2016</a></li>
+                                            <li><a href="#">2015</a></li>
+                                            <li><a href="#">2014</a></li>
+                                            <li><a href="#">2013</a></li>
+                                            <li><a href="#">2012</a></li>
+                                            <li><a href="#">2011</a></li>
+                                            <li><a href="#">2010</a></li>
+                                            <li><a href="#">2005-2009</a></li>
+                                            <li><a href="#">2000-2004</a></li>
+                                            <li><a href="#">Earlier than 2000</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="title">New On</div>
+            </div>
+        </div>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <div>
+                        <div class="col-md-3 col-xs-6">
+                            <a href="movie.html"><img class="poster center-block" src="img/ourlittlesister.jpg" alt="poster"></a>
+                            <div class="text-center">
+                                <a href="movie.html">Our Little Sister</a>
+                                <br/><span class="rate">7.6</span>
+                                <br/>
+                                <button type="button" class="btn hvr-radial-in" id="video1" href="https://www.youtube.com/embed/NRktvTd5KZo">Watch Trailer</button>
+                                <br/>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-xs-6">
+                            <a href=""><img class="poster center-block" src="img/biri.jpg" alt="poster"></a>
+                            <div class="text-center">
+                                <a href="">Biri Girl</a>
+                                <br/><span class="rate">7.5</span>
+                                <br/>
+                                <button type="button" class="btn hvr-radial-in" id="video2" href="https://www.youtube.com/embed/6R29eQGsQAk">Watch Trailer</button>
+                                <br/>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-xs-6">
+                            <a href=""><img class="poster center-block" src="img/mermaid.jpg" alt="poster"></a>
+                            <div class="text-center">
+                                <a href="">Mermaid</a>
+                                <br/><span class="rate">6.7</span>
+                                <br/>
+                                <button type="button" class="btn hvr-radial-in" id="video3" href="https://www.youtube.com/embed/UvMk7Z0Sp7E">Watch Trailer</button>
+                                <br/>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-xs-6">
+                            <a href=""><img class="poster center-block" src="img/macau.jpg" alt="poster"></a>
+                            <div class="text-center">
+                                <a href="">The Man from Macau 3</a>
+                                <br/><span class="rate">5.8</span>
+                                <br/>
+                                <button type="button" class="btn hvr-radial-in" id="video4" href="https://www.youtube.com/embed/3wEJ_T8hovw">Watch Trailer</button>
+                                <br/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div>
+                        <div class="col-md-3 col-xs-6">
+                            <img class="poster center-block" src="img/hotpot.jpg" alt="poster">
+                            <div class="text-center">
+                                <a href="">Chongqing Hot Pot</a>
+                                <br/><span class="rate">7.0</span>
+                                <br/>
+                                <button type="button" class="btn hvr-radial-in">Watch Trailer</button>
+                                <br/>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-xs-6">
+                            <img class="poster center-block" src="img/detective.jpg" alt="poster">
+                            <div class="text-center">
+                                <a href="">Detective Chinatown</a>
+                                <br/><span class="rate">6.7</span>
+                                <br/>
+                                <button type="button" class="btn hvr-radial-in">Watch Trailer</button>
+                                <br/>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-xs-6">
+                            <img class="poster center-block" src="img/spirit.jpg" alt="poster">
+                            <div class="text-center">
+                                <a href="">Spirits' Homecoming</a>
+                                <br/><span class="rate">7.6</span>
+                                <br/>
+                                <button type="button" class="btn hvr-radial-in">Watch Trailer</button>
+                                <br/>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-xs-6">
+                            <img class="poster center-block" src="img/prosecutor.jpg" alt="poster">
+                            <div class="text-center">
+                                <a href="">A Violent Prosecutor</a>
+                                <br/><span class="rate">6.1</span>
+                                <br/>
+                                <button type="button" class="btn hvr-radial-in">Watch Trailer</button>
+                                <br/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div>
+                        <div class="col-md-3 col-xs-6">
+                            <img class="poster center-block" src="img/times.jpg" alt="poster">
+                            <div class="text-center">
+                                <a href="">Our Times</a>
+                                <br/><span class="rate">7.4</span>
+                                <br/>
+                                <button type="button" class="btn hvr-radial-in">Watch Trailer</button>
+                                <br/>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-xs-6">
+                            <img class="poster center-block" src="img/assassin.jpg" alt="poster">
+                            <div class="text-center">
+                                <a href="">The Assassin</a>
+                                <br/><span class="rate">6.4</span>
+                                <br/>
+                                <button type="button" class="btn hvr-radial-in">Watch Trailer</button>
+                                <br/>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-xs-6">
+                            <img class="poster center-block" src="img/Bajrangi.jpg" alt="poster">
+                            <div class="text-center">
+                                <a href="">Bajrangi Bhaijaan</a>
+                                <br/><span class="rate">8.1</span>
+                                <br/>
+                                <button type="button" class="btn hvr-radial-in">Watch Trailer</button>
+                                <br/>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-xs-6">
+                            <img class="poster center-block" src="img/little.jpg" alt="poster">
+                            <div class="text-center">
+                                <a href="">A Little Thing Called Love</a>
+                                <br/><span class="rate">7.7</span>
+                                <br/>
+                                <button type="button" class="btn hvr-radial-in">Watch Trailer</button>
+                                <br/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <div class="row" style="margin-top: 50px; margin-bottom: 10px;">
+            <div class="title col-md-12">
+                Choose Your Movie
+            </div>
+        </div>
+        <div class="tags-container">
+            <span class="filter" data-filter="all">Show All</span>
+            <span class="filter" data-filter=".Drama">Drama</span>
+            <span class="filter" data-filter=".Horror">Horror</span>
+            <span class="filter" data-filter=".Thriller">Thriller</span>
+            <span class="filter" data-filter=".Comedy">Comedy</span>
+            <span class="filter" data-filter=".Action">Action</span>
+            <span class="filter" data-filter=".Mystery">Mystery</span>
+            <span class="filter" data-filter=".Animation">Animation</span>
+            <span class="filter" data-filter=".Adventure">Adventure</span>
+            <span class="filter" data-filter=".Romance">Romance</span>
+        </div>
+        <div id="Container" class="container">
+            <div class="mix col-md-3 col-sm-4 col-xs-6 Drama">
+                <a href=""><img class="poster center-block" src="img/spirit.jpg" alt="poster"></a>
+                <div class="text-center">
+                    <a href="">Spirits' Homecoming </a><span class="rate">7.6</span>
+                </div>
+            </div>
+            <div class="mix col-md-3 col-sm-4 col-xs-6 Horror Thriller">
+                <a href=""><img class="poster center-block" src="img/darkness.jpg" alt="poster"></a>
+                <div class="text-center">
+                    <a href="">Keeper of Darkness </a><span class="rate">5.8</span>
+                </div>
+            </div>
+            <div class="mix col-md-3 col-sm-4 col-xs-6 Comedy Drama">
+                <a href=""><img class="poster center-block" src="img/ourlittlesister.jpg" alt="poster"></a>
+                <div class="text-center">
+                    <a href="">Our Little Sister </a><span class="rate">7.6</span>
+                </div>
+            </div>
+            <div class="mix col-md-3 col-sm-4 col-xs-6 Comedy">
+                <a href=""><img class="poster center-block" src="img/bakuman.jpg" alt="poster"></a>
+                <div class="text-center">
+                    <a href="">Bakuman </a><span class="rate">7.2</span>
+                </div>
+            </div>
+            <div class="mix col-md-3 col-sm-4 col-xs-6 Action Drama">
+                <a href=""><img class="poster center-block" src="img/six.jpg" alt="poster"></a>
+                <div class="text-center">
+                    <a href="">Mr. Six </a><span class="rate">7.4</span>
+                </div>
+            </div>
+            <div class="mix col-md-3 col-sm-4 col-xs-6 Action Comedy Mystery">
+                <a href=""><img class="poster center-block" src="img/detective.jpg" alt="poster"></a>
+                <div class="text-center">
+                    <a href="">Detective Chinatown </a><span class="rate">6.7</span>
+                </div>
+            </div>
+            <div class="mix col-md-3 col-sm-4 col-xs-6 Animation Action Adventure">
+                <a href=""><img class="poster center-block" src="img/beast.jpg" alt="poster"></a>
+                <div class="text-center">
+                    <a href="">The Boy and the Beast </a><span class="rate">7.7</span>
+                </div>
+            </div>
+            <div class="mix col-md-3 col-sm-4 col-xs-6 Comedy Romance">
+                <a href=""><img class="poster center-block" src="img/times.jpg" alt="poster"></a>
+                <div class="text-center">
+                    <a href="">Our Times </a><span class="rate">7.4</span>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <footer class="footer">
+            <div class="row" style="margin-bottom: 20px">
+                <div class="col-xs-4"></div>
+                <div class="col-xs-4 text-center">
+                    About Us | Contact Us
+                </div>
+                <div class="col-xs-4"></div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/mixitup.js"></script>
+</body>
+
+</html>
